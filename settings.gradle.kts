@@ -16,6 +16,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        // Adding the repository to fetch our custom Android SDK to use it in this project.
+        maven {
+            url = uri("https://jitpack.io")
+        }
     }
 }
 

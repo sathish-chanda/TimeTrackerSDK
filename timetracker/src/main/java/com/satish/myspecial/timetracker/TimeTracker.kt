@@ -7,7 +7,11 @@ import android.util.Log
  * It can be used in both development and production environments.
  */
 object TimeTracker {
-
+    // 1. Implement new functionality in this file.
+    // 2. Push the project to github
+    // 3. git tag v1.0.0[NewTag]
+    // 4. git push origin v1.0.0[NewTag]
+    // 5. Verify the new tag version at https://jitpack.io/#sathish-chanda/TimeTrackerSDK
     private val startTimes = mutableMapOf<String, Long>()
     private val durations = mutableMapOf<String, Long>()
 
